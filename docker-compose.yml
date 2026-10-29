@@ -1,0 +1,8 @@
+services:
+  sakila:
+    image: sakiladb/sqlserver:2022
+    container_name: ads2026-sakila
+    ports:
+      - "1433:1433"
+    restart: unless-stopped
+

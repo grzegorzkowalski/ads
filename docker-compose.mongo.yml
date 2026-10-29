@@ -1,0 +1,8 @@
+services:
+  mongodb:
+    image: mongodb/mongodb-community-server:8.0.32-ubi8-slim
+    container_name: ads2026-mongodb
+    ports:
+      - "27017:27017"
+    restart: unless-stopped
+
