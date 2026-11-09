@@ -1,6 +1,10 @@
 USE sakila;
 GO
 
+
+
+
+
 SELECT
     DB_NAME() AS database_name,
     CAST(SERVERPROPERTY('ProductVersion') AS nvarchar(50)) AS sql_server_version,

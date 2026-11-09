@@ -40,15 +40,35 @@ By the end of the course, you will be able to:
 | 01 | Selecting and exploring data |
 | 02 | Filtering, `NULL`, `CASE`, and operators |
 | 03 | Sorting, grouping, and `HAVING` |
+| 03a | Filtering groups with `HAVING` |
+| 03b | Grouping functions and saving results |
 | 04 | Inner, outer, and many-to-many joins |
 | 05 | Subqueries, CTEs, and window functions |
 | 06 | Dates, text, and data types |
+| 06a | Date functions |
+| 06b | String functions |
+| 06c | Data types, `CAST`, and `CONVERT` |
 | 07 | Inserting, updating, and deleting safely |
+| 07a | Insert data |
+| 07b | Update data |
+| 07c | Delete data and `TRUNCATE` |
 | 08 | Tables, keys, and constraints |
+| 08a | Create tables (permanent, temporary, `SELECT INTO`) |
+| 08b | Alter tables |
+| 08c | Drop tables |
+| 08d | Primary keys |
+| 08e | Foreign keys |
+| 08f | Constraints |
+| 08g | Database design |
 | 09 | Views and reporting models |
+| 09a | Create views |
 | 10 | Transactions and error handling |
+| 10a | Transactions |
+| 10b | `TRY...CATCH` |
 | 11 | Stored procedures and functions |
+| 11a | Stored procedures |
 | 12 | Indexes, execution plans, and normalization |
+| 12a | Query optimization |
 | 13 | Security and database permissions |
 | 14 | Concurrency and isolation |
 | 15 | JSON and semi-structured data |
